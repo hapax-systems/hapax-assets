@@ -1,0 +1,24 @@
+{
+  "title": "hapax-assets",
+  "description": "Public asset mirror for approved Hapax Systems web and publication surfaces. Serves reviewed artifacts and preserves per-asset license notices.",
+  "creators": [
+    {
+      "name": "Hapax Systems"
+    }
+  ],
+  "license": "CC-BY-SA-4.0",
+  "access_right": "open",
+  "upload_type": "software",
+  "keywords": [
+    "research-software",
+    "single-operator",
+    "infrastructure-as-argument"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/hapax-systems/hapax-council",
+      "relation": "isRequiredBy",
+      "scheme": "url"
+    }
+  ]
+}
