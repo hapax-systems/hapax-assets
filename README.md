@@ -1,3 +1,36 @@
+<!-- hapax-sdlc:preamble:begin -->
+
+# hapax-assets
+
+`hapax-assets` is a public asset mirror for the Hapax Systems portfolio. Source of truth and approval remain outside this mirror.
+
+## Reader promise
+
+Public CDN mirror of approved aesthetic assets with per-asset provenance and notices.
+
+## Claim ceiling
+
+Artifact delivery mirror only; source of truth and edits live in council, and licenses remain per-asset.
+
+## License and rights
+
+Per-asset license posture; preserve upstream BSD-3-Clause, CC-BY-SA-4.0, and other asset-specific notices rather than implying a single repo-level license.
+
+Rendered summary: CC BY-SA 4.0 (existing aesthetic-library blend with BSD-3-Clause for BitchX components). See `LICENSE` for the authority surfaces.
+
+## Public boundary
+
+- Issues are redirect-only; no discussions, no pull requests accepted; see `CONTRIBUTING.md` and `SUPPORT.md`
+- Public copy must use `hapax-systems` organization links for first-party Hapax repositories.
+- Publication, weblog, RSS, social, DOI/archive, and other public fanout paths must route through the governed publication bus or a documented guarded legacy surface.
+- Governance reference: https://github.com/hapax-systems/hapax-constitution
+
+## Portfolio position
+
+CDN-only public mirror of aesthetic-library asset bundle. Source of truth lives in hapax-council `assets/aesthetic-library/`. Existing license blend (CC-BY-SA-4.0 / BSD-3-Clause) preserved for upstream attribution compatibility.
+
+<!-- hapax-sdlc:preamble:end -->
+
 # hapax-assets
 
 `hapax-assets` is the public asset mirror for approved Hapax Systems web and
@@ -19,9 +52,11 @@ publisher mirrors the approved artifact here.
 ## Publication Boundary
 
 Public pages, omg.lol weblog surfaces, RSS, social fanout, DOI/archive pages,
-and other public channels consume these assets only after the publication bus
-has cleared the relevant rights and privacy gates. A file appearing here does
-not authorize direct reuse outside its declared asset license.
+and other public channels consume these assets only after bus approval.
+The publication bus must clear the relevant rights and privacy gates first.
+
+A file appearing here does not authorize direct reuse outside its declared
+asset license.
 
 ## License Posture
 

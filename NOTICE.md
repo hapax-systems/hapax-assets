@@ -2,7 +2,7 @@
 
 `hapax-assets` is a public asset mirror for the Hapax Systems portfolio. Per-asset notices and upstream licenses remain controlling.
 
-This repository is part of the Hapax Systems portfolio. Public metadata, issue affordances, and support boundaries are governed by the registry in `hapax-constitution`.
+This repository is part of the Hapax Systems portfolio. Public metadata, issue affordances, and support boundaries follow the registry in `hapax-constitution`.
 
 ## Reader promise
 
