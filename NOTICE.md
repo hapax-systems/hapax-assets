@@ -8,6 +8,10 @@ This repository is part of the Hapax Systems portfolio. Public metadata, issue a
 
 Public CDN mirror of approved aesthetic assets with per-asset provenance and notices.
 
+## Reader value
+
+Lets public pages reuse reviewed assets through stable URLs and license notices without turning the mirror into the source of truth.
+
 ## Claim ceiling
 
 Artifact delivery mirror only; source of truth and edits live in council, and licenses remain per-asset.
