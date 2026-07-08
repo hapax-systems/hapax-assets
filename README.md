@@ -20,7 +20,7 @@ Artifact delivery mirror only; source of truth and edits live in council, and li
 
 Per-asset license posture; preserve upstream BSD-3-Clause, CC-BY-SA-4.0, and other asset-specific notices rather than implying a single repo-level license.
 
-Rendered summary: CC BY-SA 4.0 (existing aesthetic-library blend with BSD-3-Clause for BitchX components). See `LICENSE` for the authority surfaces.
+Rendered summary: CC BY-SA 4.0 (existing aesthetic-library blend with BSD-3-Clause for BitchX components). See `NOTICE.md`, `_NOTICES.md`, and `_manifest.yaml` for the authority surfaces.
 
 ## Public boundary
 
