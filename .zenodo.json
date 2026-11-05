@@ -1,23 +1,28 @@
 {
   "title": "hapax-assets",
-  "description": "Public asset mirror for approved Hapax Systems web and publication surfaces. Serves reviewed artifacts and preserves per-asset license notices.",
+  "description": "Static brand and publication asset mirror for Hapax Research Lab web surfaces, with SHA-256 manifest verification and per-asset provenance notices.",
   "creators": [
     {
-      "name": "Hapax Systems"
+      "name": "Hapax Research Lab"
     }
   ],
-  "license": "CC-BY-SA-4.0",
+  "license": "CC-BY-4.0",
   "access_right": "open",
   "upload_type": "software",
   "keywords": [
     "research-software",
-    "single-operator",
-    "infrastructure-as-argument"
+    "provenance",
+    "publication-assets"
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/hapax-systems/hapax-council",
-      "relation": "isRequiredBy",
+      "identifier": "https://hapaxresearch.com",
+      "relation": "isPartOf",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/hapax-systems/hapax-constitution",
+      "relation": "isSupplementedBy",
       "scheme": "url"
     }
   ]

@@ -2,74 +2,53 @@
 
 # hapax-assets
 
-`hapax-assets` is a public asset mirror for the Hapax Systems portfolio. Source of truth and approval remain outside this mirror.
+`hapax-assets` is the static brand and publication asset mirror for **Hapax Research Lab** ([hapaxresearch.com](https://hapaxresearch.com)).
 
 ## Reader promise
 
-Public CDN mirror of approved aesthetic assets with per-asset provenance and notices.
+Public GitHub Pages mirror ([hapax-systems.github.io/hapax-assets/](https://hapax-systems.github.io/hapax-assets/)) serving reviewed publication and aesthetic artifacts with explicit provenance and per-asset license notices.
 
 ## Reader value
 
-Lets public pages reuse reviewed assets through stable URLs and license notices without turning the mirror into the source of truth.
+Provides stable, SHA-verified asset URLs and auditable attribution records (`_manifest.yaml`, `_NOTICES.md`) for Hapax Research Lab web and publication surfaces.
 
 ## Claim ceiling
 
-Artifact delivery mirror only; source of truth and edits live in council, and licenses remain per-asset.
+Static delivery mirror only; asset selection and approval occur upstream before publication here.
 
 ## License and rights
 
-Per-asset license posture; preserve upstream BSD-3-Clause, CC-BY-SA-4.0, and other asset-specific notices rather than implying a single repo-level license.
-
-Rendered summary: CC BY-SA 4.0 (existing aesthetic-library blend with BSD-3-Clause for BitchX components). See `NOTICE.md`, `_NOTICES.md`, and `_manifest.yaml` for the authority surfaces.
+- **Documentation & metadata:** Creative Commons Attribution 4.0 International (`CC-BY-4.0`); see [LICENSE](LICENSE) and [LICENSE-SCOPE.md](LICENSE-SCOPE.md).
+- **Trademark & brand-mark reservation:** All trademarks, wordmarks, monograms, and brand marks of **Hapax Research Lab** (`Hapax Research LLC`) are expressly reserved and are not licensed under `CC-BY-4.0`.
+- **Mirrored third-party assets:** Governed by their respective upstream licenses (`BSD-3-Clause`, `CC-BY-SA-4.0`, `CC0-1.0`) recorded in [`_manifest.yaml`](_manifest.yaml) and [`_NOTICES.md`](_NOTICES.md).
 
 ## Public boundary
 
-- Issues are redirect-only; no discussions, no pull requests accepted; see `CONTRIBUTING.md` and `SUPPORT.md`
-- Public copy must use `hapax-systems` organization links for first-party Hapax repositories.
-- Publication, weblog, RSS, social, DOI/archive, and other public fanout paths must route through the governed publication bus or a documented guarded legacy surface.
-- Governance reference: https://github.com/hapax-systems/hapax-constitution
-
-## Portfolio position
-
-CDN-only public mirror of aesthetic-library asset bundle. Source of truth lives in hapax-council `assets/aesthetic-library/`. Existing license blend (CC-BY-SA-4.0 / BSD-3-Clause) preserved for upstream attribution compatibility.
+- Issues are redirect-only; no discussions and no unsolicited pull requests are accepted; see [CONTRIBUTING.md](CONTRIBUTING.md) and [SUPPORT.md](SUPPORT.md).
+- Security disclosures and factual correction proposals: [hrl-han@hapaxresearch.com](mailto:hrl-han@hapaxresearch.com) (see [SECURITY.md](SECURITY.md) and [hapaxresearch.com/about/#contact](https://hapaxresearch.com/about/#contact)).
+- Governance reference: [hapax-constitution](https://github.com/hapax-systems/hapax-constitution).
 
 <!-- hapax-sdlc:preamble:end -->
 
-# hapax-assets
+## Overview
 
-`hapax-assets` is the public asset mirror for approved Hapax Systems web and
-publication surfaces.
+`hapax-assets` hosts immutable, checksum-verified assets published for **Hapax Research Lab** web properties ([hapaxresearch.com](https://hapaxresearch.com), [hapax.weblog.lol](https://hapax.weblog.lol), and [hapax.omg.lol](https://hapax.omg.lol)) via [GitHub Pages](https://hapax-systems.github.io/hapax-assets/).
 
-The repository exists so public pages can load immutable, reviewable assets
-from GitHub Pages. It is not the source of truth for asset selection or
-editing. Source changes land in the producing repository first, then the
-publisher mirrors the approved artifact here.
+| Surface | Role |
+|---|---|
+| [GitHub Pages index](https://hapax-systems.github.io/hapax-assets/) | Static landing page (`index.html`) and CORS-enabled asset origin. |
+| [`_manifest.yaml`](_manifest.yaml) | Machine-validated SHA-256 inventory, source URLs, and per-asset license identifiers. |
+| [`_NOTICES.md`](_NOTICES.md) | Third-party attribution notices (`BSD-3-Clause`, `CC-BY-SA-4.0`, `CC0-1.0`). |
+| [`LICENSE`](LICENSE) & [`LICENSE-SCOPE.md`](LICENSE-SCOPE.md) | `CC-BY-4.0` grant for original documentation/metadata plus explicit trademark/brand-mark reservation. |
 
-## What To Expect
+## Verification
 
-| Surface | Boundary | Reader value |
-|---|---|---|
-| GitHub Pages | Serves approved mirrored assets from `main`/`gh-pages`. | Gives public pages stable asset URLs without making this repo the editing source of truth. |
-| `_NOTICES.md` | Canonical attribution and license notice surface. | Lets auditors trace reuse terms before an asset is embedded. |
-| Web and weblog consumers | Load SHA-pinned URLs generated by the Hapax publication pipeline. | Keeps visual/publication assets tied to a reviewed artifact rather than a mutable local file. |
+Validate all manifest checksums and provenance files locally:
 
-## Publication Boundary
+```sh
+python3 scripts/validate_manifest.py
+```
 
-Public pages, omg.lol weblog surfaces, RSS, social fanout, DOI/archive pages,
-and other public channels consume these assets only after bus approval.
-The publication bus must clear the relevant rights and privacy gates first.
+## License & Trademark Reservation
 
-A file appearing here does not authorize direct reuse outside its declared
-asset license.
-
-## License Posture
-
-Licensing is per asset. Preserve upstream notices such as BSD-3-Clause,
-CC-BY-SA-4.0, and any asset-specific terms recorded in `_NOTICES.md`. This
-repository should not be described as having one blanket license for every
-file it mirrors.
-
-## CORS
-
-GitHub Pages serves with `Access-Control-Allow-Origin: *` by default, which is
-suitable for cross-origin embedding by approved public surfaces.
+Original documentation and repository metadata are available under **CC-BY-4.0** ([LICENSE](LICENSE)). Trademarks, logos, and brand marks of **Hapax Research Lab** (`Hapax Research LLC`) are expressly reserved and excluded from the `CC-BY-4.0` grant. Mirrored third-party files remain under their upstream licenses documented in [`_NOTICES.md`](_NOTICES.md).
