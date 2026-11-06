@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" data-derivation="https://hapaxresearch.com/about/#emblem-derivation">
+  <title>The mark is one glyph under two descriptions, each necessary, sharing one field.</title>
+  <desc>Congruent upright and 90-degree-rotated H letterforms on [5,27]x[5,27] intersecting at (16,16); derivation at https://hapaxresearch.com/about/#emblem-derivation.</desc>
+  <style>
+    :root { --ink: #1d2422; --paper: #f7f5f1; }
+    @media (prefers-color-scheme: dark) { :root { --ink: #e8e6dc; --paper: #161a19; } }
+  </style>
+  <rect width="32" height="32" fill="var(--paper)"/>
+  <g id="description-one" fill="none" stroke="var(--ink)" stroke-width="2">
+    <path d="M5 5v22M27 5v22"/><path id="warrant-one" d="M5 16h22"/>
+  </g>
+  <g id="description-two" fill="none" stroke="var(--ink)" stroke-width="2">
+    <path d="M5 5h22M5 27h22"/><path id="warrant-two" d="M16 5v22"/>
+  </g>
+</svg>

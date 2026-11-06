@@ -1,9 +1,11 @@
 cff-version: 1.2.0
-message: If you cite this repository or its metadata in research, please cite it as below.
+message: If you cite this repository or its artifacts in research, please cite it
+  as below.
 type: software
 title: hapax-assets
-abstract: Static brand and publication asset mirror for Hapax Research Lab web surfaces,
-  with SHA-256 manifest verification and per-asset provenance notices.
+abstract: 'Public asset mirror for Hapax Research Lab''s web and publication surfaces:
+  reviewed artifacts at stable URLs with per-asset license notices. Not the source
+  of truth for asset selection.'
 authors:
 - name: Hapax Research Lab
   email: hrl-han@hapaxresearch.com
@@ -13,5 +15,4 @@ url: https://hapax-systems.github.io/hapax-assets/
 license: CC-BY-4.0
 keywords:
 - research-software
-- provenance
-- publication-assets
+- infrastructure-as-argument
