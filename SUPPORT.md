@@ -1,19 +1,28 @@
 # Support
 
-`hapax-assets` is published by **Hapax Research Lab** as a static publication asset mirror for inspection, provenance verification, and citation, not as a staffed support surface.
+`hapax-assets` is published as a **Hapax Research Lab** research or boundary artifact (https://hapaxresearch.com). The repository is available for inspection, citation, and governance review, not as a staffed support surface.
 
 ## GitHub issues
 
-GitHub Issues are kept available only as a redirect surface. Blank issues are disabled; the issue chooser points readers to the appropriate boundary files instead of opening a support queue.
+GitHub Issues are kept available only as a redirect surface. Blank issues are disabled; the issue chooser points readers to the published boundary files instead of opening a support queue.
 
 ## What is in scope
 
-- Inspecting the asset manifest (`_manifest.yaml`) and attribution notices (`_NOTICES.md`).
+- Reading the repository and its rendered metadata.
 - Citing the repository through `CITATION.cff` and `.zenodo.json`.
-- Reporting a concrete security disclosure or rights/attribution correction to `hrl-han@hapaxresearch.com` per `SECURITY.md`.
+- Reporting a concrete security disclosure or factual correction proposal to `hrl-han@hapaxresearch.com` (see `SECURITY.md` and https://hapaxresearch.com/about/#contact; the network commits to receipt, retention and published correction, and promises no response time).
 - Following the governance boundary through `GOVERNANCE.md` and https://github.com/hapax-systems/hapax-constitution.
 
 ## What is out of scope
 
-- Troubleshooting, integration help, feature requests, or consulting through GitHub Issues.
-- Unsolicited pull requests or contributor onboarding.
+- Troubleshooting, integration help, feature requests, roadmap requests, or consulting through GitHub Issues.
+- Pull requests, community maintenance, or contributor onboarding.
+- Claims that a funding link, citation, fork, or public issue creates support, feature priority, commercial rights, or license expansion.
+
+## Funding
+
+Funding links, if present, are no-perk research support only. Payment does not create an SLA, support entitlement, product commitment, license grant, or consulting relationship.
+
+---
+
+This file is rendered from `hapax-constitution/sdlc/render/`. Edits are overwritten on next render.

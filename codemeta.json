@@ -2,7 +2,7 @@
   "@context": "https://w3id.org/codemeta/3.0",
   "@type": "SoftwareSourceCode",
   "name": "hapax-assets",
-  "description": "Static brand and publication asset mirror for Hapax Research Lab web surfaces, with SHA-256 manifest verification and per-asset provenance notices.",
+  "description": "Public asset mirror for Hapax Research Lab's web and publication surfaces: reviewed artifacts at stable URLs with per-asset license notices. Not the source of truth for asset selection.",
   "codeRepository": "https://github.com/hapax-systems/hapax-assets",
   "url": "https://hapax-systems.github.io/hapax-assets/",
   "license": "https://creativecommons.org/licenses/by/4.0/",
@@ -14,13 +14,12 @@
       "url": "https://hapaxresearch.com"
     }
   ],
-  "applicationCategory": "Multimedia",
+  "applicationCategory": "SoftwareLibrary",
   "developmentStatus": "active",
   "isAccessibleForFree": true,
   "keywords": [
     "research-software",
-    "provenance",
-    "publication-assets"
+    "infrastructure-as-argument"
   ],
   "relatedLink": [
     "https://hapaxresearch.com",

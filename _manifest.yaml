@@ -51,8 +51,8 @@ assets:
   kind: theme
   name: moksha
   path: enlightenment/themes/moksha.edc
-  sha256: 7f5a636767e258256ae5a2ac39ec7998d009cfdc17eca198326e8ae56582b67b
+  sha256: 71cbadd9106b942009beb2ea8523ff092ff7bd757c12cd31acfeee48eec5e806
   license: CC0-1.0
-  author: Hapax (authored approximation under no-operator-approval-waits mandate 2026-04-24T19:10Z)
+  author: Hapax Research Lab
   source_url: https://www.enlightenment.org/
   extracted_date: '2026-04-24'

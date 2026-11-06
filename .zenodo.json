@@ -1,6 +1,6 @@
 {
   "title": "hapax-assets",
-  "description": "Static brand and publication asset mirror for Hapax Research Lab web surfaces, with SHA-256 manifest verification and per-asset provenance notices.",
+  "description": "Public asset mirror for Hapax Research Lab's web and publication surfaces: reviewed artifacts at stable URLs with per-asset license notices. Not the source of truth for asset selection.",
   "creators": [
     {
       "name": "Hapax Research Lab"
@@ -11,8 +11,7 @@
   "upload_type": "software",
   "keywords": [
     "research-software",
-    "provenance",
-    "publication-assets"
+    "infrastructure-as-argument"
   ],
   "related_identifiers": [
     {
